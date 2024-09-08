@@ -1,0 +1,251 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: whitesmoke;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sweetjesus{
+    background-color: #64c6cb;
+    height: 13rem;
+    width: 100%;
+}
+.cones{
+    display: flex;
+    max-width: 85rem;
+    margin: 0 auto;
+    height: 13rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ .nav_menu a,
+ .nav_social a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding: 0 1.5rem;
+    letter-spacing: 0.1rem;
+    font-family: "Raleway", sans-serif;
+}
+.cones-bar i{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    transition: color 0.5s ease;
+}
+.cones-bar i:hover{
+    color: #64c6cb;
+}
+.cones-bar{
+    display: none;
+}
+.nav_menu,
+.nav_social{
+    display: flex;
+} 
+
+
+.nav_image{
+    max-width: 150px;
+    width: 100%;
+}
+
+.nav_image img{
+    width: 100%;
+}
+.cone{
+    max-height: 25rem;
+    max-width: 100%;
+    background-color:whitesmoke;
+}
+.cone__img {
+    text-align: center;
+}
+.cone__img img{
+    max-width: 100%;
+}
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 100rem;
+    /* max-height: 45rem; */
+    margin: 0 auto;
+    background-color: whitesmoke;
+    
+}
+.banging{
+    max-width: 32rem;
+}
+.banging img, .bounty img, .birthday img{
+    width: 100%;
+}
+.birthday{
+    max-width: 32rem;
+}
+.bounty{
+    max-width: 32rem;
+}
+.banging h3, .birthday h3, .bounty h3{
+    text-align: center;
+    padding: 0.5rem 0;
+    color: #7a7a7a;
+    font-weight: 600;
+    font-size: 1.4rem;
+    font-family: "Raleway", sans-serif;
+}
+.banging p, .birthday p, .bounty p{
+    text-align: center;
+    color: #7a7a7a;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 0.04rem;
+    font-family: "Raleway", sans-serif;
+}
+
+.input{
+    background-color: whitesmoke;
+    height: 20rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2rem;
+}
+select{
+    padding: 0.5rem 1rem;
+    color: #7a7a7a;
+    border: 1px solid #7a7a7a;
+    border-radius: 0.5rem;
+}
+.icon{
+    height: 20rem;
+    background-color: #ffb9ce;
+    text-align: center;
+}
+.icon i{
+   
+    color: whitesmoke;
+    font-size: 2.2rem;
+    padding: 0 1rem;
+    font-weight: 200;
+    margin-top: 9rem;
+    height: 1rem;
+}
+.icon i:hover{
+    color: #000;
+}
+footer{
+    background-color: #e59eb4;
+    max-height: 42rem;
+}
+.info{
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-inline: 2rem;
+    padding-block: 5rem;
+}
+.info a{
+    text-decoration: none;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.4rem;
+    letter-spacing: 0,2rem;
+    padding: 0 0.7rem ;
+    font-family: "Raleway", sans-serif;
+}
+.info a:hover{
+    color: #7a7a7a;
+}
+.img{
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+.img img{
+    width: 100%;
+}
+footer p{
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    font-family: "Raleway", sans-serif;
+}
+.code {
+    text-align: center;
+}
+.code a{
+    text-decoration: underline;
+    color: whitesmoke;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 1.2rem;
+    font-family: "Raleway", sans-serif;
+}
+.code a:hover{
+    font-weight: 500;
+
+}
+.section3{
+    position: relative;
+}
+.botton{
+    width: 30rem;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.btn{
+    padding: 1rem 10rem;
+    border-radius: 4.5rem;
+    background-color: #05969e;
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    border: none;
+    box-shadow: 0.1rem 0.1rem 0.2rem #110e0e;
+    cursor: pointer;
+    font-family: "Raleway", sans-serif;
+}
+.btn:hover{
+    background-color: #08989f;
+}
+
+/* ================MEDIA QEURRIES============== */
+@media (max-width:682px){
+    html{
+        font-size: 55%;
+    }
+    .nav_menu ,
+    .nav_social {
+        display: none;
+    }
+    .cones{
+        justify-content: space-between;
+        padding-inline: 10px;
+        align-items: center;
+    }
+    .cones-bar{
+        display: block;
+    }
+    .nav_image{
+        max-width: 70px;
+        width: 100%;
+    }
+
+}
